@@ -18,3 +18,10 @@ Hands-on SOC Analyst labs showing Windows event logging, Splunk detections, and 
 - Add Sysmon detections (4688).
 - Add brute-force login detection (4740).
 - Expand Splunk correlation rules.
+
+## Labs Completed
+1. [Failed Logins Detection](writeups/failed_logins.md)
+2. [Nmap & ICMP Analysis](writeups/nmap_icmp.md)
+
+Screenshots for each lab are stored in the `screenshots/` folder.
+
