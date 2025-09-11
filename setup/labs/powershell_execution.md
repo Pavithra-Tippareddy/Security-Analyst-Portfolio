@@ -10,17 +10,7 @@ ScriptBlock & Module logging give visibility into PowerShell usage — helpful t
 
 ## Setup (enable logging — use Administrator)
 
-> **Option A — Registry (works on Home / no gpedit):**
-Run an elevated PowerShell or Command Prompt and paste these (one line each):
-
-```powershell
-reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging" /v EnableScriptBlockLogging /t REG_DWORD /d 1 /f
-reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ModuleLogging" /v EnableModuleLogging /t REG_DWORD /d 1 /f
-reg add "HKLM\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ModuleLogging\ModuleNames" /v "*" /t REG_SZ /d "*" /f
-
-* After running the above: either run gpupdate /force (may be limited on Home) or reboot the machine.
-
-## Option B — regedit GUI
+## Option A — regedit GUI
 * If you prefer GUI: open regedit (Run → regedit) as admin and create the same keys/values:
 
 * HKLM\SOFTWARE\Policies\Microsoft\Windows\PowerShell\ScriptBlockLogging\EnableScriptBlockLogging = DWORD 1
