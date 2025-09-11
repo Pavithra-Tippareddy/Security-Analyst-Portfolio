@@ -6,8 +6,9 @@ Detect failed login attempts in Windows using Event Viewer and Splunk.
 ## Steps
 1. Created a test user (`testuser`) in Windows.
 2. Ran the following to simulate failed logins:
-   ```powershell
-   runas /user:.\testuser notepad
+
+```powershell
+runas /user:.\testuser notepad
    
 Entered the wrong password multiple times.
 
