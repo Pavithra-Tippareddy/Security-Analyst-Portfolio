@@ -1,1 +1,4 @@
+index=wineventlog EventCode=4624
+| stats count by Account_Name, Logon_Type, Workstation_Name
+| sort - count
 
