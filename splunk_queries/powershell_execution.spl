@@ -1,1 +1,4 @@
+index=wineventlog EventCode=4103 OR EventCode=4104
+| table _time, Account_Name, ScriptBlockText
+| sort - _time
 
