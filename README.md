@@ -25,5 +25,8 @@ Hands-on SOC Analyst labs showing Windows event logging, Splunk detections, and 
 
 Screenshots for each lab are stored in the `screenshots/` folder.
 
-## TryHackMe SOC Simulation – Phishing Email Investigation (./writeups/tryhackme_soc_simulation_phishing_investigation.md)
+## TryHackMe SOC Simulation – Phishing Email Investigation.
+  * Investigated a simulated phishing alert using Splunk SIEM. Reviewed email indicators, searched firewall/proxy logs, and produced an        incident case report confirming a true positive with no user compromise.  
+    [View Writeup →](./writeups/tryhackme_soc_simulation_phishing_investigation.md)
+
 
