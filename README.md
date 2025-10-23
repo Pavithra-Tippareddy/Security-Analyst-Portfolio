@@ -27,6 +27,19 @@ Screenshots for each lab are stored in the `screenshots/` folder.
 
 ## TryHackMe SOC Simulation – Phishing Email Investigation.
   * Investigated a simulated phishing alert using Splunk SIEM. Reviewed email indicators, searched firewall/proxy logs, and produced an        incident case report confirming a true positive with no user compromise.  
-    [View Writeup →](./writeups/tryhackme_soc_simulation_phishing_investigation.md)
+
+ 
+ ## 🧪 SOC Simulations Summary
+Completed multiple SOC analyst simulations on TryHackMe using Splunk SIEM to triage and document different alert types:
+
+- Phishing Email Investigation ✅ *(detailed write-up below)*
+- Brute Force Login Detection
+- Malware Alert Escalation
+- Data Exfiltration Attempt
+- Suspicious PowerShell Execution
+
+* Each scenario strengthened skills in alert triage, log correlation, and incident documentation.
+
+## [Detailed Write-up: Phishing Email Investigation](./writeups/tryhackme_soc_simulation_phishing_investigation.md)
 
 
